@@ -1,0 +1,60 @@
+* {box-sizing: border-box;}
+body {
+	font-family: Roboto, arial,sans-serif;
+}
+#heading, #results {
+	width: 60%;
+	margin: 0.5em auto;
+}
+#heading {
+	height: 2.5em;
+	margin-bottom: 2em;
+	border-bottom: 1px solid #cc181e;
+	padding-bottom: 0.75em;
+}
+#headTxt {
+	width: 4em;
+	float: left;
+	margin: 0;
+}
+#logo {
+	width: 35px;
+	height: 35px;
+}
+#search {
+	float: right;
+	margin-top: 0.25em;
+}
+#query {
+	width: 30em;
+	border-style: groove;
+	border-radius: 0.25em;
+}
+#searchSubmit {
+	background-color: #cc181e;
+	border-radius: 0.25em;
+	border-style: hidden;
+}
+ul, li {
+	list-style: none;
+}
+#video {
+	width: 50em;
+	height: 11.25em;
+	margin: 1em auto;
+}
+#thumbnail {
+	width: 20em;
+	height: 11.25em; 
+	float: left;
+}
+#content {
+	width: 29em;
+	height: 11.25em;
+	margin-top: 0;
+	float: right;
+	text-align: left;
+}
+#title {
+	margin-top: 0;
+}
